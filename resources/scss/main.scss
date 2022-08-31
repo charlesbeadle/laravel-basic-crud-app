@@ -1,0 +1,7 @@
+// override bootstrap by defining variables above the import
+$body-bg: #181818;
+$body-color: #fbfbfb;
+$link-color: $body-color;
+
+@import './globals';
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
